@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>404에러 발생</title>
 </head>
 <body>
-
+<h1>옵스!!!! 페이지를 찾지 못햇다.</h1>
 </body>
 </html>

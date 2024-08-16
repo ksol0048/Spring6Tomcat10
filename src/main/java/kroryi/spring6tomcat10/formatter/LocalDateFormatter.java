@@ -1,11 +1,13 @@
-package kroryi.spring6tomcat10.controller.formatter;
+package kroryi.spring6tomcat10.formatter;
 
+
+import org.springframework.format.Formatter;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class LocalDateFormatter {
+public class LocalDateFormatter implements Formatter<LocalDate> {
 
     public LocalDate parse(String text, Locale locale) {
         return LocalDate.parse(text, DateTimeFormatter.ofPattern("yyyy-MM-dd"));

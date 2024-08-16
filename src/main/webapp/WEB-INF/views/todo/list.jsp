@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+<h1>목록 보기</h1>
 </body>
 </html>
